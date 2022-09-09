@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Intro = () => {
   return (
     <div className='px-6 py-4 sm:text-lg pt-10'>
