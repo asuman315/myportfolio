@@ -23,6 +23,7 @@ const MobileNav = () => {
       offset: -150,
     },
   ];
+  
   return (
     <div className=' md:hidden'>
       <div className='absolute z-40 flex w-full justify-between px-4 py-5 bg-primary-3 items-center'>

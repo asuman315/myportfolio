@@ -13,13 +13,13 @@ const Text = () => {
     const filename = 'resume';
 
   return (
-    <div className='relative z-10 text[red] w-screen h-screen flex flex-col items-center justify-center'>
+    <div className='relative z-10 text[red] w-screen lg:w-[50%] lg:ml-[50%] h-screen flex flex-col items-center justify-center'>
       <Zoom>
         <div>
           <p className='text-1xl font-bold tracking-wide text-white'>
             Hello There!
           </p>
-          <h2 className='text-[28px] sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-wide text-white my-2 font-["Old_Standard_TT"]'>
+          <h2 className='text-[28px] sm:text-4xl md:text-5xl lg:text-5xl font-bold tracking-wide text-white my-2 font-["Old_Standard_TT"]'>
             I am <span className='text-secondary-1'>Asuman Ssendegeya</span>
           </h2>
           <h1 className='text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-wide text-white font-["Old_Standard_TT"]'>

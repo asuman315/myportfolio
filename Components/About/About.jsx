@@ -7,7 +7,7 @@ import Slide from 'react-reveal/Slide';
 
 const About = () => {
   return (
-    <section name='About' className='max-w-6xl mx-auto mt-16'>
+    <section name='About' className='max-w-6xl mx-auto mt-8'>
       <div className=''>
         <Slide right>
           <h3 className='text-center mt-4 font-bold tracking-wide'>ABOUT</h3>
