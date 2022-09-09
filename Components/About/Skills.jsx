@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Skills = () => {
  const technologies = ['HTML5', 'CSS3', 'javascript', 'react', 'nextjs', 'tailwind css', 'nodejs', 'mongodb']
   return (
