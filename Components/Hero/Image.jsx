@@ -1,6 +1,5 @@
 import React from 'react';
 import largeImage from '../../public/assets/laptop-large.jpg';
-import smallImage from '../../public/assets/laptop-small.jpg';
 import webDevUndraw from '../../public/assets/web-dev-undraw.svg';
 import Image from 'next/image';
 
