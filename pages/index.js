@@ -7,14 +7,20 @@ import Footer from '../Components/Footer/Footer';
 
 export default function Home() {
   return (
-   <main>
-      <section>
-        <Navigation />
-        <Hero />
-        <About />
-        <Projects />
-        <Footer />
-      </section>
-   </main>
+    <Fragment>
+      <Head>
+        <title>Asuman Ssendegeya</title>
+        <meta name="description" content="I'm Asuman Ssendegeya a web developer who loves building scalable, fast and intuitive user experiences. Specialized in the JavaScript ecosystem - particularly React, Next.js, Typescript and Express. I am particularly interested in the front-end, designing user interfaces and delivering clean, modular code." />
+      </Head>
+      <main>
+        <section>
+          <Navigation />
+          <Hero />
+          <About />
+          <Projects />
+          <Footer />
+        </section>
+      </main>
+    </Fragment>
   )
 }
