@@ -4,6 +4,7 @@ import Navigation from '../Components/Navigation/Navigation';
 import About from '../Components/About/About';
 import Projects from '../Components/Projects/Projects'
 import Footer from '../Components/Footer/Footer';
+import { Fragment } from 'react';
 
 export default function Home() {
   return (
