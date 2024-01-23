@@ -12,9 +12,6 @@ export default function Home() {
      <Head>
       <title>Asuman Ssendegeya</title>
       <meta name="description" content="I'm Asuman Ssendegeya a web developer who loves building scalable, fast and intuitive user experiences. Specialized in the JavaScript ecosystem - particularly React, Next.js, Typescript and Express. I am particularly interested in the front-end, designing user interfaces and delivering clean, modular code." />
-      <link rel="stylesheet" href="/chatbotStyles.css" />
-      <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
-      <script src="https://mediafiles.botpress.cloud/e59ea1fb-957a-4eb3-85c2-f452a4f33010/webchat/config.js" defer></script>
     </Head>
       <main>
         <section>
