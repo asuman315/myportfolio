@@ -7,7 +7,7 @@ import Roll from 'react-reveal/Roll';
 const Projects = () => {
   return (
     <div name='Projects' className='mt-16 px-6'>
-      <Roll right>
+      <Roll left>
         <h2 className='text-center font-bold text-3xl text-primary-2'>
           Projects
         </h2>

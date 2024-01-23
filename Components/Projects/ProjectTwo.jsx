@@ -1,5 +1,4 @@
 import React from 'react';
-import Slide from 'react-reveal/Slide';
 import Zoom from 'react-reveal/Zoom';
 import Roll from 'react-reveal/Roll';
 import Rotate from 'react-reveal/Rotate';
@@ -23,13 +22,13 @@ const ProjectTwo = () => {
   return (
     <div className='mt-10 bg-primary-3 px-5 pt-3 rounded-md shadow-md'>
       <div className='relative mb-3'>
-        <Slide left>
+        <Zoom left>
           <h3 className='font-bold text-center pb-3 text-primary-2 lg:cursor-pointer'>
             <Link href='https://asumansounds.com/'>
               Shopping Experince of an Ecommerce Store
             </Link>
           </h3>
-        </Slide>
+        </Zoom>
         <div className='bg-primary-2 h-[2px] w-[30%] ml-[35%]'></div>
       </div>
       <Zoom top>
@@ -54,17 +53,17 @@ const ProjectTwo = () => {
           allowFullScreen></iframe>
       </Zoom>
       <div className='leading-9'>
-        <Slide left>
+        <Zoom left>
           <p>
             This is an ecommerce store with a complete userflow from selecting a
             product on the home page to checking out. The customer navigates
             five pages from the home page to the 'thankyou' page.
           </p>
-        </Slide>
+        </Zoom>
         <Roll top>
           <p className='my-4 font-bold'>The customer is able to;</p>
         </Roll>
-        <Slide left>
+        <Zoom left>
           <p>
             - See hover states for all interactive elements on the page. <br />
             -Add/Remove products from the cart. <br />
@@ -87,7 +86,7 @@ const ProjectTwo = () => {
             - Checkout using stripe. (The store is using a special card number
             from stripe for only testing purposes.) <br />
           </p>
-        </Slide>
+        </Zoom>
       </div>
       <div className='flex flex-col'>
         <Rotate top left>
@@ -97,7 +96,7 @@ const ProjectTwo = () => {
             </button>
           </Link>
         </Rotate>
-        <Slide right>
+        <Zoom left>
           <Link
             href='https://res.cloudinary.com/dbsbevgcj/video/upload/v1661268881/asuman_sounds_9_bfc31aa66b.mp4?updated_at=2022-08-23T15:34:42.541Z'
             passHref>
@@ -105,8 +104,8 @@ const ProjectTwo = () => {
               short demo video
             </button>
           </Link>
-        </Slide>
-        <Rotate bottom right>
+        </Zoom>
+        <Rotate bottom left>
           <Link href='https://github.com/asuman315/asuman-sounds' passHref>
             <button className='uppercase border-[1px] outline-none py-3 mt-3 tracking-widest font-bold text-lg rounded w-full'>
               code repo
@@ -114,7 +113,7 @@ const ProjectTwo = () => {
           </Link>
         </Rotate>
       </div>
-      <Zoom right>
+      <Zoom left>
         <div>
           <h3 className='text-center pt-5 pb-2 font-bold text-primary-2'>
             Technologies used in the project

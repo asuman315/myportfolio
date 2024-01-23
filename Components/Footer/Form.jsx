@@ -60,7 +60,7 @@ const Form = () => {
 
   return (
     <div>
-      <Zoom right>
+      <Zoom left>
         <form
           onSubmit={handleSubmit}
           className=' px-4 py-6 flex flex-col justify-center bg-primary-1 text-white font-medium w-[80%] mx-auto mt-8 rounded md:w-full relative'>

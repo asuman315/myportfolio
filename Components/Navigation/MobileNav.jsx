@@ -35,7 +35,7 @@ const MobileNav = () => {
         />
       </div>
       <ul
-        className={`fixed flex flex-col items-center h-screen right-0 top-20 p-4 z-20 duration-300 ease-in-out pt-10 bg-primary-3 opacity-80 ${
+        className={`fixed flex flex-col items-center h-screen left-0 top-20 p-4 z-20 duration-300 ease-in-out pt-10 bg-primary-3 opacity-80 ${
           isMobileNavOpen ? 'left-0' : 'left-[108%]'
         }`}>
        

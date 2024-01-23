@@ -17,7 +17,7 @@ const Text = () => {
       <Zoom>
         <div>
           <p className='text-1xl font-bold tracking-wide text-white'>
-            Hello There!
+            Hello!
           </p>
           <h2 className='text-[28px] sm:text-4xl md:text-5xl lg:text-5xl font-bold tracking-wide text-white my-2 font-["Old_Standard_TT"]'>
             I am <span className='text-secondary-1'>Asuman Ssendegeya</span>
@@ -35,7 +35,7 @@ const Text = () => {
             </button>
           </Link>
         </Rotate>
-        <Rotate bottom right>
+        <Rotate bottom left>
             <button
               className='bg-primary- mt-8 py-3 px-12 uppercase tracking-wide font-bold border-[1px] border-primary-2 text-primary-2'
               onClick={() => download(fileUrl, filename)}>

@@ -17,7 +17,7 @@ const SocialMedia = () => {
           <FaTwitterSquare className='mx-10 w-7 cursor-pointer h-7 text-primary-2' />
         </Link>
       </Flip>
-      <Flip right>
+      <Flip left>
         <Link href='https://github.com/asuman315'>
           <BsGithub className='w-7 cursor-pointer h-7 text-primary-2' />
         </Link>

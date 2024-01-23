@@ -1,5 +1,4 @@
 import React from 'react';
-import Slide from 'react-reveal/Slide';
 import Zoom from 'react-reveal/Zoom';
 import Rotate from 'react-reveal/Rotate';
 import Image from 'next/image';
@@ -19,13 +18,13 @@ const ProjectThree = () => {
   return (
     <div className='mt-10 bg-primary-3 px-5 pt-3 rounded-md shadow-md'>
       <div className='relative mb-3'>
-        <Slide right>
+        <Zoom left>
           <Link href='https://cafeteriase.com/' passHref>
             <h3 className='font-bold capitalize tracking-wider text-center text-primary-2 pb-3 lg:cursor-pointer'>
               online ordering web application for a modern cafe
             </h3>
           </Link>
-        </Slide>
+        </Zoom>
         <div className='bg-primary-2 h-[2px] w-[30%] ml-[35%]'></div>
       </div>
       <Zoom bottom>
@@ -38,7 +37,7 @@ const ProjectThree = () => {
         />
       </Zoom>
       <div className='leading-8 tracking-wide'>
-        <Slide bottom>
+        <Zoom bottom>
           <p className='mb-4'>
               This a web application allows a user to order food from a modern cafe.
               <br />
@@ -47,10 +46,10 @@ const ProjectThree = () => {
               Then the user can add the selected drink/meal to the cart. <br />A
               user can edit the quantity of the selected meal within the cart.
           </p>
-        </Slide>
+        </Zoom>
       </div>
       <div className='flex flex-col mt-6'>
-        <Rotate top right>
+        <Rotate top left>
           <Link href='https://cafeteriase.com/' passHref>
             <button className='uppercase border-none outline-none py-3 mt-3 tracking-widest font-bold text-lg rounded bg-primary-2 w-full'>
               see live app
