@@ -77,7 +77,7 @@ const Hero = () => {
               <h2 className="text-lg md:text-xl font-medium tracking-wide text-white my-1 lg:my-2 ">
                 I am Asuman Ssendegeya
               </h2>
-              <h1 className="text-xl pt-2 text-[28px] sm:text-3xl 3xl:text-5xl font-bold tracking-wide text-white gap-3">
+              <h1 className="text-xl pt-2 text-[25px] sm:text-3xl 3xl:text-5xl font-bold tracking-wide text-white gap-3">
                 A Software Engineer Specializing in{" "}
                 <div className="pt-2 g:pt-4 inline-block">
                   <span className="text-secondary-1"> {displayText}</span>
