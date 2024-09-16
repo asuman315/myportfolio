@@ -12,7 +12,8 @@ module.exports = {
         sm: "480px",
         md: "768px",
         lg: "1000px",
-        xl: "1440px",
+        "2xl": "1280px",
+        "4xl": "1440px",
       },
       colors: {
         "primary-1": "hsl(197.4, 80%, 15%)",

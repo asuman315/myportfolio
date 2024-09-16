@@ -25,7 +25,7 @@ const MobileNav = () => {
   ];
   return (
     <div className=' md:hidden'>
-      <div className='absolute z-40 flex w-full justify-between px-4 py-5 bg-primary-3 items-center'>
+      <div className='fixed z-40 flex w-full justify-between px-4 py-5 bg-primary-3 items-center'>
         <h3 className='font-extrabold text-4xl tracking-widest font-["Dancing_Script"]'>
           A<span className='text-secondary-1'>S</span>
         </h3>
