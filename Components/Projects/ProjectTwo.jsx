@@ -1,66 +1,66 @@
-import React from 'react';
-import Zoom from 'react-reveal/Zoom';
-import Roll from 'react-reveal/Roll';
-import Rotate from 'react-reveal/Rotate';
-import Link from 'next/link';
+import React from "react";
+import Zoom from "react-reveal/Zoom";
+import Roll from "react-reveal/Roll";
+import Rotate from "react-reveal/Rotate";
+import Link from "next/link";
 
 const ProjectTwo = () => {
   // const appImage = require('../../Assets/asuman-sounds-gif.gif');
   const technologies = [
-    'Tailwind CSS',
-    'React',
-    'NextJs',
-    'Redux',
-    'NodeJs',
-    'ExpressJs',
-    'Strapi',
-    'Stripe API',
-    'REST API',
-    'MongoDb',
-    'Heroku',
+    "Tailwind CSS",
+    "React",
+    "NextJs",
+    "Redux",
+    "NodeJs",
+    "ExpressJs",
+    "Strapi",
+    "Stripe API",
+    "REST API",
+    "MongoDb",
+    "Heroku",
   ];
   return (
-    <div className='mt-10 bg-primary-3 px-5 pt-3 rounded-md shadow-md'>
-      <div className='relative mb-3'>
+    <div className="mt-10 bg-primary-3 px-5 pt-3 rounded-md shadow-md">
+      <div className="relative mb-3">
         <Zoom left>
-          <h3 className='font-bold text-center pb-3 text-primary-2 lg:cursor-pointer'>
-            <Link href='https://asumansounds.com/'>
+          <h3 className="font-bold text-center pb-3 text-primary-2 lg:cursor-pointer">
+            <Link className="w-full" href="https://asumansounds.com/">
               Shopping Experince of an Ecommerce Store
             </Link>
           </h3>
         </Zoom>
-        <div className='bg-primary-2 h-[2px] w-[30%] ml-[35%]'></div>
+        <div className="bg-primary-2 h-[2px] w-[30%] ml-[35%]"></div>
       </div>
-      <Zoom top>
-        {/* <img src={appImage} alt='gif' className='lg:h-[350px] mb-3' /> */}
-        <iframe
-          className='container mx-auto w-ful sm:hidden'
-          width='auto'
-          height='auto'
-          src='https://res.cloudinary.com/dbsbevgcj/video/upload/v1661268881/asuman_sounds_9_bfc31aa66b.mp4?updated_at=2022-08-23T15:34:42.541Z'
-          title='YouTube video player'
-          frameBorder=''
-          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-          allowFullScreen></iframe>
-        <iframe
-          className='container mx-auto hidden sm:block'
-          width='560'
-          height='315'
-          src='https://res.cloudinary.com/dbsbevgcj/video/upload/v1661268881/asuman_sounds_9_bfc31aa66b.mp4?updated_at=2022-08-23T15:34:42.541Z'
-          title='YouTube video player'
-          frameBorder=''
-          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-          allowFullScreen></iframe>
-      </Zoom>
-      <div className='leading-9'>
-        <Zoom left>
+      {/* <img src={appImage} alt='gif' className='lg:h-[350px] mb-3' /> */}
+      <iframe
+        className="container mx-auto w-ful sm:hidden"
+        width="auto"
+        height="auto"
+        src="https://res.cloudinary.com/dbsbevgcj/video/upload/v1661268881/asuman_sounds_9_bfc31aa66b.mp4?updated_at=2022-08-23T15:34:42.541Z"
+        title="YouTube video player"
+        frameBorder=""
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+      <iframe
+        className="container mx-auto hidden sm:block"
+        width="560"
+        height="315"
+        src="https://res.cloudinary.com/dbsbevgcj/video/upload/v1661268881/asuman_sounds_9_bfc31aa66b.mp4?updated_at=2022-08-23T15:34:42.541Z"
+        title="YouTube video player"
+        frameBorder=""
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+      <div className="leading-9">
+        {/* <Zoom left>
           <p>
             This is an ecommerce store with a complete userflow from selecting a
             product on the home page to checking out. The customer navigates
             five pages from the home page to the 'thankyou' page.
           </p>
-        </Zoom>
-        <Roll top>
+        </Zoom> */}
+        {/* <Roll top>
           <p className='my-4 font-bold'>The customer is able to;</p>
         </Roll>
         <Zoom left>
@@ -86,49 +86,44 @@ const ProjectTwo = () => {
             - Checkout using stripe. (The store is using a special card number
             from stripe for only testing purposes.) <br />
           </p>
-        </Zoom>
+        </Zoom> */}
       </div>
-      <div className='flex flex-col'>
-        <Rotate top left>
-          <Link href='https://asumansounds.com/' passHref>
-            <button className='uppercase border-none outline-none py-3 mt-3 tracking-widest font-bold text-lg rounded bg-primary-2 w-full'>
-              see live app
-            </button>
-          </Link>
-        </Rotate>
-        <Zoom left>
-          <Link
-            href='https://res.cloudinary.com/dbsbevgcj/video/upload/v1661268881/asuman_sounds_9_bfc31aa66b.mp4?updated_at=2022-08-23T15:34:42.541Z'
-            passHref>
-            <button className='uppercase border-none outline-none py-3 mt-3 tracking-widest font-bold text-lg rounded bg-primary-2 w-full'>
-              short demo video
-            </button>
-          </Link>
-        </Zoom>
-        <Rotate bottom left>
-          <Link href='https://github.com/asuman315/asuman-sounds' passHref>
-            <button className='uppercase border-[1px] outline-none py-3 mt-3 tracking-widest font-bold text-lg rounded w-full'>
-              code repo
-            </button>
-          </Link>
-        </Rotate>
+      <div className="flex flex-col lg:flex-row gap-4 mt-4">
+        <Link className="w-full" href="https://asumansounds.com/" passHref>
+          <button className="uppercase border-none outline-none py-3 tracking-widest font-bold text-xs  rounded bg-primary-2 w-full">
+            live app
+          </button>
+        </Link>
+        <Link
+          href="https://res.cloudinary.com/dbsbevgcj/video/upload/v1661268881/asuman_sounds_9_bfc31aa66b.mp4?updated_at=2022-08-23T15:34:42.541Z"
+          passHref
+          className="w-full"
+        >
+          <button className="uppercase border-none outline-none py-3 tracking-widest font-bold text-xs  rounded bg-primary-2 w-full">
+            demo video
+          </button>
+        </Link>
+        <Link className="w-full" href="https://github.com/asuman315/asuman-sounds" passHref>
+          <button className="uppercase border-[1px] outline-none py-3 tracking-widest font-bold text-xs g rounded w-full">
+            code repo
+          </button>
+        </Link>
       </div>
-      <Zoom left>
+      <div>
+        <h3 className="text-center pt-5 pb-2 font-bold text-primary-2">
+          Technologies used in the project
+        </h3>
         <div>
-          <h3 className='text-center pt-5 pb-2 font-bold text-primary-2'>
-            Technologies used in the project
-          </h3>
-          <div>
-            {technologies.map((tech, index) => (
-              <button
-                key={index}
-                className='g-white text-white bg-primary-1 text-sm font-bold mr-3 px-3 mb-3 rounded py-1 cursor-none'>
-                {tech}
-              </button>
-            ))}
-          </div>
+          {technologies.map((tech, index) => (
+            <button
+              key={index}
+              className="g-white text-white bg-primary-1 text-sm font-bold mr-3 px-3 mb-3 rounded py-1 cursor-none"
+            >
+              {tech}
+            </button>
+          ))}
         </div>
-      </Zoom>
+      </div>
     </div>
   );
 };

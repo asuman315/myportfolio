@@ -107,7 +107,7 @@ const Hero = () => {
           </div>
         </section>
         <section className="flex items-center @lg:justify-end ">
-          <div className=" h-full w-full rounded-2xl xl:mt-0">
+          <div className=" h-full w-full rounded-2xl xl:mt-0 border-4 border-secondary-1">
             <video
               className="w-full h-full object-cover rounded-2xl max-w-xl mx-auto xl:max-w-none"
               src="https://res.cloudinary.com/dbsbevgcj/video/upload/v1726452993/website-coding-vid_ruhrbh.mp4"
