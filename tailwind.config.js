@@ -16,10 +16,36 @@ module.exports = {
         "4xl": "1440px",
       },
       colors: {
-        "primary-1": "hsl(197.4, 80%, 15%)",
-        "primary-2": "hsl(197.4, 90%, 55%)",
-        "primary-3": "hsl(197.4, 30%, 25%)",
-        "primary-4": "hsl(197.4, 30%, 35%)",
+        primary: {
+          100: "#F5FAFF",
+          200: "#EFF8FF",
+          300: "#84CAFF",
+          400: "#53B1FD",
+          500: "#2E90FA",
+          600: "#1570EF",
+          700: "#175CD3",
+          800: "##1849A9",
+          900: "#194185",
+        },
+        gray: {
+          50: "#F9FAFB",
+          100: "#F2F4F7",
+          200: "#EAECF0",
+          300: "#D0D5DD",
+          400: "#98A2B3",
+          500: "#667085",
+          600: "#475467",
+          700: "#344054",
+          800: "#1D2939",
+        },
+        error: {
+          25: "#FFFBFA",
+          50: "#FFFBFA",
+          100: "#FEE4E2",
+          300: "#FDA29B",
+          500: "#F04438",
+          700: "#B42318",
+        },
         "secondary-1": "hsl(38.8, 100%, 55%)",
         "dark-one": "#070710",
         "dark-two": "#0F1021",
@@ -49,15 +75,15 @@ module.exports = {
           "50%": { transform: "translateY(-15px)" },
         },
         moveLeftRight: {
-          '0%': { transform: 'translateX(0)' },       // Start at the left
-          '100%': { transform: 'translateX(calc(100vw - 2rem))' }, // End at the right (subtract ball width)
+          "0%": { transform: "translateX(0)" }, // Start at the left
+          "100%": { transform: "translateX(calc(100vw - 2rem))" }, // End at the right (subtract ball width)
         },
       },
       animation: {
         wiggle: "wiggle 1s ease-in-out infinite",
         zoomInOut: "zoomInOut 1s ease-in-out infinite",
         bounce: "bounce 1s ease-in-out infinite",
-        'move-light': 'moveLeftRight 3s ease-in-out infinite',
+        "move-light": "moveLeftRight 3s ease-in-out infinite",
       },
     },
   },

@@ -1,13 +1,7 @@
 import Head from "next/head";
-import Hero from "../Components/Hero/Hero";
-import Navigation from "../Components/Navigation/Navigation";
-import About from "../Components/About/About";
-import Projects from "../Components/Projects/Projects";
-import Footer from "../Components/Footer/Footer";
-import Image from "next/image";
+import Home from "../Components/Home";
 
-
-export default function Home() {
+export default function HomePage() {
   return (
     <>
       <Head>
@@ -18,23 +12,9 @@ export default function Home() {
         />
       </Head>
       <main
-        className={`font-urbanist min-h-screen text-white pb-16`}
-        style={{
-          backgroundImage: "url('/assets/dotted-pattern-83.svg'), url('/assets/semi-circle-five.svg')",
-          backgroundRepeat: "repeat, no-repeat",
-          backgroundPosition: "center, left top",
-          backgroundAttachment: "fixed, scroll",
-          backgroundSize: "auto, auto",
-        }}
+        className={`font-urbanist min-h-screen text-white`}
       >
-        <section className=" min-h-scree">
-         {/* <Image src="/assets/dotted-pattern-84.svg" alt="dotted pattern" width={400} height={500} className="absolute " /> */}
-          <Navigation />
-          <Hero />
-          <About />
-          <Projects />
-          <Footer />
-        </section>
+        <Home />
       </main>
     </>
   );

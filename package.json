@@ -10,11 +10,11 @@
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
+    "framer-motion": "^12.4.2",
     "next": "^14.2.11",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^4.4.0",
-    "react-reveal": "^1.2.2",
     "react-scroll": "^1.8.7",
     "react-spinners": "^0.13.4",
     "react-use-downloader": "^1.1.7",
@@ -25,6 +25,7 @@
     "eslint": "8.23.0",
     "eslint-config-next": "12.2.5",
     "postcss": "^8.4.16",
+    "shadcn-ui": "^0.9.4",
     "tailwindcss": "^3.1.8"
   }
 }
