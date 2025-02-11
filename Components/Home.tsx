@@ -31,7 +31,7 @@ export default function LandingPage() {
 
           <div className="aspect-video bg-dark-two rounded-xl overflow-hidden mt-8">
             <video
-              src="https://res.cloudinary.com/dbsbevgcj/video/upload/v1739299632/2025-02-11_00-04-10_hreron.mkv"
+              src="https://res.cloudinary.com/dbsbevgcj/video/upload/v1739305169/lv_0_20250211230753_mrswst.mp4"
               controls
               className="w-full h-full object-cover"
             />
